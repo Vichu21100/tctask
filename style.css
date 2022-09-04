@@ -1,0 +1,61 @@
+body{
+    background-color: #F6F7EB;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+html {
+font-size: 18px
+}
+.headbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nittlogo{
+    flex:0.5;
+
+}
+.heading{
+    flex:5;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.figure{
+    display: block;
+    align-items: center;
+}
+
+.links i {
+    color: blue;
+}
+
+.links {
+    
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+main {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 2px;
+     
+}
+
+footer {
+    color: black;
+}
+
